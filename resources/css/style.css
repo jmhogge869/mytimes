@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* My Times CSS */
-/*Navigation Bar*/
+/*Navigation Bar***********************************/
 .top {
 	font-family: Verdana;
 	font-size: 14px;
@@ -29,4 +29,34 @@
 	padding-left: 60%;
 	padding-top: 60px;
 	padding-right: 0%;
+}
+/*END Navigation Bar************************************/
+/*main content section is 3 columns********************/
+.content {
+	display: flex;
+	background-color: white;
+	border: 1px solid black;
+	padding-top: 100px;
+	width: 100%;
+}
+
+.column1 {
+	display:flex;
+	flex-direction: column;
+	width: 630px;
+	border: 1px solid black;
+}
+
+.column2 {
+	display:flex;
+	flex-direction: column;
+	width: 300px;
+	border: 1px solid black;
+}
+
+.column3 {
+	display: flex;
+	flex-direction: column;
+	width: 240px;
+	border: 1px solid black;
 }
